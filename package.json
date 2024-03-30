@@ -1,0 +1,18 @@
+{
+  "name": "docker-compose",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postgres:up": "docker-compose -f docker-compose.postgres.yml up",
+    "postgres:down": "docker-compose -f docker-compose.postgres.yml down",
+    "kafka:up": "docker-compose -f docker-compose.kafka.yml up",
+    "kafka:down": "docker-compose -f docker-compose.kafka.yml down",
+    "mongo:up": "docker-compose -f docker-compose.mongo.yml up",
+    "mongo:down": "docker-compose -f docker-compose.mongo.yml down",
+    "mariadb:up": "docker-compose -f docker-compose.mariadb.yml up",
+    "mariadb:down": "docker-compose -f docker-compose.mariadb.yml down"
+  },
+  "author": "Santiago valle",
+  "license": "MIT"
+}
